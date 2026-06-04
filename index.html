@@ -306,38 +306,33 @@
           <span class="prompt-cmd">git log --oneline --all</span>
         </div>
 
-        <div class="project-block" data-num="project/01">
-          <div class="project-name">AWS Cloud Infrastructure with CI/CD Pipeline</div>
-          <p class="project-desc">
-            Designed and provisioned a highly available 3-tier AWS architecture using
-            EC2, RDS, ALB, and Auto Scaling with Terraform. Built automated CI/CD
-            pipelines using Jenkins, Docker, and Amazon ECR to streamline deployments
-            and improve reliability.
-          </p>
-          <div class="project-stack">
-            <span class="stack-chip">AWS EC2</span>
-            <span class="stack-chip">RDS</span>
-            <span class="stack-chip">Terraform</span>
-            <span class="stack-chip">Jenkins</span>
-            <span class="stack-chip">Docker</span>
-            <span class="stack-chip">Amazon ECR</span>
-            <span class="stack-chip">CloudWatch</span>
-          </div>
-        </div>
+        <div class="projects-list">
+          <article class="project-item">
+            <div class="project-item__head">
+              <span class="project-item__num" aria-hidden="true">project/01</span>
+              <h3 class="project-item__title">AWS Cloud Infrastructure with CI/CD Pipeline</h3>
+              <a href="https://github.com/itsairamkumar" target="_blank" rel="noopener noreferrer" class="project-item__link">github ↗</a>
+            </div>
+            <p class="project-item__desc">
+              3-tier AWS (EC2, RDS, ALB, Auto Scaling) provisioned with Terraform; CI/CD via Jenkins, Docker, and ECR.
+            </p>
+            <div class="project-item__tags" aria-label="Technologies">
+              <span class="stag">EC2</span><span class="stag">RDS</span><span class="stag">Terraform</span><span class="stag">Jenkins</span><span class="stag">Docker</span><span class="stag">ECR</span><span class="stag">CloudWatch</span>
+            </div>
+          </article>
 
-        <div class="project-block" data-num="project/02">
-          <div class="project-name">Evaluation Platform</div>
-          <p class="project-desc">
-            Maintained .NET applications and SQL Server databases used for university examination systems. Worked on database monitoring, backup and recovery processes, and ensuring reliable system availability during critical exam periods.
-          </p>
-          <div class="project-stack">
-            <span class="stack-chip">SQL Server 2016/2019</span>
-            <span class="stack-chip">IIS</span>
-            <span class="stack-chip">FTP</span>
-            <span class="stack-chip">High Availability</span>
-            <span class="stack-chip">Disaster Recovery</span>
-            <span class="stack-chip">Query Optimization</span>
-          </div>
+          <article class="project-item">
+            <div class="project-item__head">
+              <span class="project-item__num" aria-hidden="true">project/02</span>
+              <h3 class="project-item__title">Evaluation Platform</h3>
+            </div>
+            <p class="project-item__desc">
+              .NET and SQL Server platform for university exams — monitoring, HA/DR, backups, and tuning under peak load.
+            </p>
+            <div class="project-item__tags" aria-label="Technologies">
+              <span class="stag">SQL Server</span><span class="stag">IIS</span><span class="stag">HA/DR</span><span class="stag">Query tuning</span>
+            </div>
+          </article>
         </div>
 
         <div class="terminal-cursor terminal-cursor--tight"><span class="prompt-dollar">$</span> <span class="blink" aria-hidden="true"></span></div>
@@ -349,31 +344,64 @@
           <span class="prompt-user">sairam</span><span class="prompt-at">@</span><span class="prompt-host">portfolio</span><span class="prompt-sep">:</span><span class="prompt-path">~/academic</span><span class="prompt-dollar">$</span>
           <span class="prompt-cmd">cat education.log</span>
         </div>
-        <div class="card">
-          <div class="comment">education</div>
-          <div class="cert-line">
-            <span class="cert-badge">EDU</span>
-            <div><div class="cert-name">MCA - Cloud Computing</div><div class="cert-detail">Manipal University, Jaipur · Expected 08/2026</div></div>
-          </div>
-          <div class="cert-line">
-            <span class="cert-badge">EDU</span>
-            <div><div class="cert-name">BCA</div><div class="cert-detail">Berhampur University, Odisha · Graduated · 2015</div></div>
-          </div>
+
+        <div class="academic-list">
+          <p class="academic-group">education</p>
+
+          <article class="academic-item">
+            <div class="academic-item__head">
+              <span class="academic-item__num" aria-hidden="true">edu/01</span>
+              <h3 class="academic-item__title">MCA — Cloud Computing</h3>
+              <span class="academic-item__status">In progress</span>
+            </div>
+            <p class="academic-item__desc">Manipal University, Jaipur · Expected Aug 2026</p>
+            <div class="academic-item__tags" aria-label="Focus areas">
+              <span class="stag">Cloud Computing</span>
+              <span class="stag">AWS</span>
+            </div>
+          </article>
+
+          <article class="academic-item">
+            <div class="academic-item__head">
+              <span class="academic-item__num" aria-hidden="true">edu/02</span>
+              <h3 class="academic-item__title">BCA</h3>
+            </div>
+            <p class="academic-item__desc">Berhampur University, Odisha · Graduated in 2015</p>
+          </article>
+
+          <p class="academic-group">certifications</p>
+
+          <article class="academic-item">
+            <div class="academic-item__head">
+              <span class="academic-item__num" aria-hidden="true">cert/01</span>
+              <h3 class="academic-item__title">SQL Database Developer</h3>
+            </div>
+            <p class="academic-item__desc">Brainwave Matrix Solutions (Remote) · Feb–Apr 2025</p>
+            <div class="academic-item__tags" aria-label="Topics">
+              <span class="stag">T-SQL</span>
+              <span class="stag">Stored procedures</span>
+              <span class="stag">Optimization</span>
+            </div>
+          </article>
+
+          <article class="academic-item">
+            <div class="academic-item__head">
+              <span class="academic-item__num" aria-hidden="true">cert/02</span>
+              <h3 class="academic-item__title">Tata iQ Data Analytics</h3>
+              <span class="academic-item__status academic-item__status--muted">Simulation</span>
+            </div>
+            <p class="academic-item__desc">Forage virtual job simulation · May 2026</p>
+            <div class="academic-item__tags" aria-label="Topics">
+              <span class="stag">Data analytics</span>
+              <span class="stag">Business insights</span>
+            </div>
+          </article>
+
+          <article class="academic-item academic-item--resume">
+            <a href="sairam_kumar_cv.pdf" download="sairam_kumar_cv.pdf" class="cmd-btn cmd-btn-primary">↓ download resume</a>
+          </article>
         </div>
-        <div class="card">
-          <div class="comment">certifications</div>
-          <div class="cert-line">
-            <span class="cert-badge">CERT</span>
-            <div><div class="cert-name">SQL Database Developer</div><div class="cert-detail">Brainwave Matrix Solutions (Remote) · Feb–Apr 2025</div></div>
-          </div>
-          <div class="cert-line">
-            <span class="cert-badge">CERT</span>
-            <div><div class="cert-name">Tata iQ Data Analytics Job Simulation</div><div class="cert-detail">Forage · May 2026</div></div>
-          </div>
-        </div>
-        <div class="card card-actions">
-          <a href="sairam_kumar_cv.pdf" download="sairam_kumar_cv.pdf" class="cmd-btn cmd-btn-primary">↓ download resume</a>
-        </div>
+
         <div class="terminal-cursor terminal-cursor--tight"><span class="prompt-dollar">$</span> <span class="blink" aria-hidden="true"></span></div>
       </div>
 
@@ -384,24 +412,51 @@
           <span class="prompt-cmd">cat contact.json</span>
         </div>
 
-        <div class="card card--spaced">
-          <div class="contact-line"><span class="c-icon" aria-hidden="true">✉</span><span class="c-label">email</span><span class="c-val"><a href="mailto:itsairamkumar@gmail.com">itsairamkumar@gmail.com</a></span></div>
-          <div class="contact-line"><span class="c-icon" aria-hidden="true">☏</span><span class="c-label">phone</span><span class="c-val"><a href="tel:+917504541161">+91-750-454-1161</a></span></div>
-          <div class="contact-line"><span class="c-icon" aria-hidden="true">⇗</span><span class="c-label">linkedin</span><span class="c-val"><a href="https://www.linkedin.com/in/isairamkumar" target="_blank" rel="noopener noreferrer">linkedin.com/in/isairamkumar</a></span></div>
-          <div class="contact-line"><span class="c-icon" aria-hidden="true">◎</span><span class="c-label">location</span><span class="c-val">Bhubaneswar, Odisha, India</span></div>
-          <div class="contact-line"><span class="c-icon" aria-hidden="true">⌘</span><span class="c-label">portfolio</span><span class="c-val"><a href="https://itsairamkumar.github.io/portfolio/" target="_blank" rel="noopener noreferrer">itsairamkumar.github.io/portfolio</a></span></div>
-        </div>
+        <div class="contact-shell">
+          <header class="contact-hero">
+            <div class="contact-hero__glow" aria-hidden="true"></div>
+            <div class="contact-hero__top">
+              <span class="contact-hero__label">get_in_touch</span>
+              <span class="contact-hero__badge"><span class="contact-hero__dot" aria-hidden="true"></span> Available</span>
+            </div>
+            <h2 class="contact-hero__title">Let's build something <em>reliable</em>.</h2>
+            <p class="contact-hero__text">Open to DevOps, cloud, and infrastructure roles — full-time or freelance.</p>
+            <a href="mailto:itsairamkumar@gmail.com" class="cmd-btn cmd-btn-primary contact-hero__cta">✉ Email me</a>
+          </header>
 
-        <div class="card cta-card">
-          <div class="prompt">
-            <span class="prompt-dollar">$</span>
-            <span class="prompt-cmd">status --availability</span>
+          <div class="contact-grid">
+            <a href="mailto:itsairamkumar@gmail.com" class="contact-tile" title="itsairamkumar@gmail.com">
+              <span class="contact-tile__icon" aria-hidden="true">✉</span>
+              <span class="contact-tile__label">Email</span>
+              <span class="contact-tile__value contact-tile__value--stack">
+                <span>itsairamkumar</span>
+                <span class="contact-tile__muted">@gmail.com</span>
+              </span>
+            </a>
+            <a href="tel:+917504541161" class="contact-tile" title="+91-750-454-1161">
+              <span class="contact-tile__icon" aria-hidden="true">☏</span>
+              <span class="contact-tile__label">Phone</span>
+              <span class="contact-tile__value">+91-750-454-1161</span>
+            </a>
+            <a href="https://www.linkedin.com/in/isairamkumar" target="_blank" rel="noopener noreferrer" class="contact-tile" title="linkedin.com/in/isairamkumar">
+              <span class="contact-tile__icon" aria-hidden="true">in</span>
+              <span class="contact-tile__label">LinkedIn</span>
+              <span class="contact-tile__value">linkedin.com/in/isairamkumar</span>
+            </a>
+            <div class="contact-tile contact-tile--static">
+              <span class="contact-tile__icon" aria-hidden="true">◎</span>
+              <span class="contact-tile__label">Location</span>
+              <span class="contact-tile__value">Bhubaneswar, Odisha</span>
+            </div>
+            <a href="https://itsairamkumar.github.io/portfolio/" target="_blank" rel="noopener noreferrer" class="contact-tile contact-tile--portfolio" title="itsairamkumar.github.io/portfolio">
+              <span class="contact-tile__icon" aria-hidden="true">⌘</span>
+              <span class="contact-tile__label">Portfolio</span>
+              <span class="contact-tile__value">itsairamkumar.github.io</span>
+            </a>
           </div>
-          <p class="cta-text">✓ Open to DevOps, Cloud, Linux, Software Engineer, Database admin, and Infrastructure opportunities.</p>
-          <p class="cta-text">✓ Available for full-time roles and freelance projects.</p>
         </div>
 
-        <div class="terminal-cursor terminal-cursor--loose"><span class="prompt-dollar">$</span> <span class="blink" aria-hidden="true"></span></div>
+        <div class="terminal-cursor terminal-cursor--tight"><span class="prompt-dollar">$</span> <span class="blink" aria-hidden="true"></span></div>
       </div>
 
     </main>
