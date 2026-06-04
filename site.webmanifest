@@ -1,0 +1,19 @@
+{
+  "name": "A Sairam Kumar Patro — Portfolio",
+  "short_name": "Sairam Portfolio",
+  "description": "AWS Cloud & DevOps Engineer, SQL Server DBA, and Software Engineer portfolio.",
+  "start_url": "/portfolio/",
+  "scope": "/portfolio/",
+  "display": "standalone",
+  "background_color": "#080808",
+  "theme_color": "#080808",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

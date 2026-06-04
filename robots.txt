@@ -1,0 +1,5 @@
+# https://itsairamkumar.github.io/portfolio/
+User-agent: *
+Allow: /
+
+Sitemap: https://itsairamkumar.github.io/portfolio/sitemap.xml
