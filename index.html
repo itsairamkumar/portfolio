@@ -42,7 +42,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Fraunces:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/styles.css">
-
+  
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -52,30 +52,86 @@
         "@id": "https://itsairamkumar.github.io/portfolio/#website",
         "url": "https://itsairamkumar.github.io/portfolio/",
         "name": "A Sairam Kumar Patro — Portfolio",
-        "description": "AWS Cloud & DevOps Engineer and SQL Server DBA portfolio.",
+        "alternateName": [
+          "Sairam Kumar Patro Portfolio",
+          "Atal Sairam Kumar Patro Portfolio",
+          "A. Sairam Kumar Patro Portfolio"
+        ],
+        "description": "Portfolio of A Sairam Kumar Patro — AWS Cloud & DevOps Engineer and SQL Server DBA with 10+ years of IT experience based in Bhubaneswar, India.",
         "inLanguage": "en",
-        "publisher": { "@id": "https://itsairamkumar.github.io/portfolio/#person" }
+        "publisher": { "@id": "https://itsairamkumar.github.io/portfolio/#person" },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://itsairamkumar.github.io/portfolio/?q={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
       },
       {
         "@type": "ProfilePage",
         "@id": "https://itsairamkumar.github.io/portfolio/#webpage",
         "url": "https://itsairamkumar.github.io/portfolio/",
-        "name": "A Sairam Kumar Patro | AWS DevOps Engineer",
-        "description": "Professional portfolio showcasing cloud infrastructure, DevOps, and database administration experience.",
+        "name": "A Sairam Kumar Patro | AWS Cloud & DevOps Engineer · SQL Server DBA · Bhubaneswar",
+        "description": "Professional portfolio of A Sairam Kumar Patro — AWS Cloud & DevOps Engineer and SQL Server DBA with 10+ years in IT infrastructure, automation, CI/CD, and cloud operations. Based in Bhubaneswar, Odisha, India.",
         "isPartOf": { "@id": "https://itsairamkumar.github.io/portfolio/#website" },
         "about": { "@id": "https://itsairamkumar.github.io/portfolio/#person" },
-        "inLanguage": "en"
+        "mainEntity": { "@id": "https://itsairamkumar.github.io/portfolio/#person" },
+        "inLanguage": "en",
+        "dateModified": "2025-06-01",
+        "breadcrumb": { "@id": "https://itsairamkumar.github.io/portfolio/#breadcrumb" },
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "@id": "https://itsairamkumar.github.io/portfolio/#primaryimage",
+          "url": "https://itsairamkumar.github.io/portfolio/assets/og-image.png",
+          "width": 1200,
+          "height": 630,
+          "caption": "A Sairam Kumar Patro — AWS Cloud & DevOps Engineer Portfolio"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://itsairamkumar.github.io/portfolio/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://itsairamkumar.github.io/portfolio/"
+          }
+        ]
       },
       {
         "@type": "Person",
         "@id": "https://itsairamkumar.github.io/portfolio/#person",
         "name": "A Sairam Kumar Patro",
-        "alternateName": ["Sairam Kumar Patro", "Atal Sairam Kumar Patro"],
-        "jobTitle": ["AWS Cloud & DevOps Engineer", "SQL Server DBA"],
-        "description": "AWS Cloud & DevOps professional with 2+ years hands-on cloud experience and 10+ years in IT infrastructure, automation, and SQL Server administration.",
+        "givenName": "Sairam Kumar",
+        "familyName": "Patro",
+        "additionalName": "Atal",
+        "alternateName": [
+          "Sairam Kumar Patro",
+          "Atal Sairam Kumar Patro",
+          "A. Sairam Kumar Patro",
+          "A Sairam",
+          "Sairam"
+        ],
+        "jobTitle": [
+          "AWS Cloud & DevOps Engineer",
+          "SQL Server DBA",
+          "Cloud Infrastructure Engineer",
+          "DevOps Engineer"
+        ],
+        "description": "AWS Cloud & DevOps Engineer and SQL Server DBA with 2+ years of hands-on AWS experience and 10+ years in IT infrastructure, automation, CI/CD pipelines, and SQL Server administration. Based in Bhubaneswar, Odisha, India. Open to DevOps, cloud, and infrastructure roles.",
         "email": "itsairamkumar@gmail.com",
+        "telephone": "+91-750-454-1161",
         "url": "https://itsairamkumar.github.io/portfolio/",
-        "image": "https://itsairamkumar.github.io/portfolio/assets/og-image.png",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://itsairamkumar.github.io/portfolio/assets/og-image.png",
+          "width": 1200,
+          "height": 630
+        },
         "sameAs": [
           "https://www.linkedin.com/in/isairamkumar",
           "https://github.com/itsairamkumar"
@@ -84,23 +140,144 @@
           "@type": "PostalAddress",
           "addressLocality": "Bhubaneswar",
           "addressRegion": "Odisha",
-          "addressCountry": "IN"
+          "addressCountry": "IN",
+          "postalCode": "751001"
         },
-        "worksFor": {
-          "@type": "Organization",
-          "name": "Eduquity Career Technologies Pvt. Ltd."
-        },
+        "worksFor": { "@id": "https://itsairamkumar.github.io/portfolio/#organization" },
+        "alumniOf": [
+          {
+            "@type": "EducationalOrganization",
+            "name": "Manipal University Jaipur",
+            "url": "https://www.jaipur.manipal.edu/"
+          },
+          {
+            "@type": "EducationalOrganization",
+            "name": "Berhampur University",
+            "url": "https://www.buodisha.edu.in/"
+          }
+        ],
+        "hasCredential": [
+          {
+            "@type": "EducationalOccupationalCredential",
+            "name": "SQL Database Developer",
+            "credentialCategory": "certification",
+            "recognizedBy": {
+              "@type": "Organization",
+              "name": "Brainwave Matrix Solutions"
+            },
+            "dateCreated": "2025-04-01"
+          },
+          {
+            "@type": "EducationalOccupationalCredential",
+            "name": "Tata iQ Data Analytics",
+            "credentialCategory": "certification",
+            "recognizedBy": {
+              "@type": "Organization",
+              "name": "Forage"
+            },
+            "dateCreated": "2026-05-01"
+          }
+        ],
         "knowsAbout": [
           "Amazon Web Services",
+          "AWS EC2",
+          "AWS VPC",
+          "AWS IAM",
+          "AWS S3",
+          "AWS RDS",
+          "AWS ECS",
+          "AWS EKS",
+          "AWS Lambda",
+          "AWS CloudWatch",
+          "AWS Auto Scaling",
           "Terraform",
+          "AWS CloudFormation",
           "Docker",
           "Kubernetes",
           "Jenkins",
           "GitHub Actions",
-          "CI/CD",
-          "SQL Server",
+          "CI/CD Pipelines",
           "DevOps",
-          "Cloud Infrastructure"
+          "SQL Server",
+          "SQL Server 2016",
+          "SQL Server 2019",
+          "Always On Availability Groups",
+          "Database Mirroring",
+          "Log Shipping",
+          "Cloud Infrastructure",
+          "Infrastructure as Code",
+          "Linux",
+          "Bash Scripting",
+          "Python",
+          "VMware",
+          "Hyper-V",
+          "Networking",
+          "VPN",
+          "SonicWall Firewall",
+          "MySQL",
+          "PostgreSQL",
+          "MongoDB",
+          "C#",
+          "ASP.NET"
+        ],
+        "knowsLanguage": [
+          {
+            "@type": "Language",
+            "name": "English"
+          },
+          {
+            "@type": "Language",
+            "name": "Odia"
+          }
+        ],
+        "seeks": {
+          "@type": "Demand",
+          "name": "DevOps, Cloud, and Infrastructure Roles",
+          "description": "Open to full-time or freelance DevOps, cloud, and infrastructure engineering roles."
+        }
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://itsairamkumar.github.io/portfolio/#organization",
+        "name": "Eduquity Career Technologies Pvt. Ltd.",
+        "url": "https://www.eduquity.com/",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Bhubaneswar",
+          "addressRegion": "Odisha",
+          "addressCountry": "IN"
+        },
+        "employee": { "@id": "https://itsairamkumar.github.io/portfolio/#person" }
+      },
+      {
+        "@type": "ItemList",
+        "@id": "https://itsairamkumar.github.io/portfolio/#projects",
+        "name": "Portfolio Projects",
+        "description": "Key cloud and DevOps projects by A Sairam Kumar Patro",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@type": "CreativeWork",
+              "name": "AWS Cloud Infrastructure with CI/CD Pipeline",
+              "description": "3-tier AWS environment (EC2, RDS, ALB, Auto Scaling) provisioned with Terraform; CI/CD via Jenkins, Docker, and ECR.",
+              "author": { "@id": "https://itsairamkumar.github.io/portfolio/#person" },
+              "url": "https://github.com/itsairamkumar",
+              "keywords": ["AWS", "Terraform", "Jenkins", "Docker", "ECR", "CI/CD", "CloudWatch"]
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@type": "CreativeWork",
+              "name": "Evaluation Platform",
+              "description": ".NET and SQL Server platform for university exams with HA/DR, monitoring, backups, and query tuning under peak load.",
+              "author": { "@id": "https://itsairamkumar.github.io/portfolio/#person" },
+              "keywords": ["SQL Server", "IIS", "HA/DR", "Query Tuning", "ASP.NET"]
+            }
+          }
         ]
       }
     ]
